@@ -3,10 +3,10 @@ const { expect } = require('chai');
 describe('Testes da Função de Soma', function() {
     it('Deve calcular a soma de dois números positivos', function() {
         // Coleta o resultado da função
-        const resultadoDaSoma = somarDoisNumeros(10, 20);
+        const resultadoDaSoma = somarDoisNumeros(20, 20);
 
         // Compara o resultado com o valor que vc espera
-        expect(resultadoDaSoma).to.equal(30);
+        expect(resultadoDaSoma).to.equal(40);
     });
 
     it('Deve calcular a soma de um número positivo e um negativo', function() {
